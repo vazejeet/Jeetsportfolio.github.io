@@ -1,0 +1,28 @@
+.icon{
+	width: 60px;
+	height: 60px;
+	border-radius: 15px;
+	text-align: center;
+	background-image: linear-gradient(155deg, #4C57A2 8%, #87439A 50%, #e02870 85%);
+	position: relative;
+	overflow: hidden;
+	&:after{
+		content: '';
+		display: block;
+		position: absolute;
+		top: 30%;
+    	left: -60%;
+		width: 150%;
+		height: 150%;
+		background: radial-gradient(rgba(246, 221, 132,1) 15%, 
+			rgba(255, 45, 45, 0.65) 50%, 
+			rgba(0, 0, 0, 0) 70%);
+    }
+	i{
+		color: #fff;
+    	font-size: 50px;
+		line-height: 60px;
+		position: relative;
+		z-index: 1;
+	}
+}
